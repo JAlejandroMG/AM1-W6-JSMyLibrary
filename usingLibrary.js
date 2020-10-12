@@ -11,8 +11,8 @@ import library from './library.js'
 
 /* -------- Para mejorarla aún más puede seguir los siguientes pasos: ------- */
 /* -------------------------- teclear Shift+Ctrl+P -------------------------- */
-/* ------------ buscar "Open Workspace Settings" y teclear Enter ------------ */
-/* ---------------- buscar "Better Comments" y teclear Enter ---------------- */
+/* - en barra de búsqueda teclear "Open Workspace Settings" y oprimir Enter - */
+/* ----- en barra de búsqueda teclear "Better Comments" y oprimir Enter ----- */
 /* -------- ir al enlace "Edit in settings.JSON" en la parte inferior ------- */
 /* --------------------- buscar la línea "tag": "todo", --------------------- */
 /* ------------------------ cambiarla por "tag": "@", ----------------------- */
@@ -164,7 +164,6 @@ console.log(names);
 // @ ***** V1 *****
 // @ En esta versión, usando un callback, el usuario desarrolla la función que en primera instancia, al llamar al método, envia la condición para incluir o no un elemento en el nuevo arreglo y, posteriormente, recibe el nuevo arreglo
 /* const numbers = [1, 2, 1, 0, 3, 1, 4];
-
 const strippingValues = [0, 1];
 
 const newArray = numbers.mywithout1((number) => {
@@ -185,7 +184,6 @@ console.log(newArray); */
 // @ ***** V2 *****
 // @ En esta versión, usando un callback, el usuario desarrolla la función que en primera instancia, al llamar al método, envia el arreglo de los elementos que no se van a incluir en el nuevo arreglo y, posteriormente, recibe el nuevo arreglo
 /* const numbers = [1, 2, 1, 0, 3, 1, 4];
-
 const strippingValues = [0, 1];
 
 const newArray = numbers.mywithout2((number) => {

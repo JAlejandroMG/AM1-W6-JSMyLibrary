@@ -11,8 +11,8 @@ const library = {}; // Se inicializa libreria
 
 /* -------- Para mejorarla aún más puede seguir los siguientes pasos: ------- */
 /* -------------------------- teclear Shift+Ctrl+P -------------------------- */
-/* ------------ buscar "Open Workspace Settings" y teclear Enter ------------ */
-/* ---------------- buscar "Better Comments" y teclear Enter ---------------- */
+/* - en barra de búsqueda teclear "Open Workspace Settings" y oprimir Enter - */
+/* ----- en barra de búsqueda teclear "Better Comments" y oprimir Enter ----- */
 /* -------- ir al enlace "Edit in settings.JSON" en la parte inferior ------- */
 /* --------------------- buscar la línea "tag": "todo", --------------------- */
 /* ------------------------ cambiarla por "tag": "@", ----------------------- */
@@ -211,6 +211,7 @@ Array.prototype.mypluck1 = function(callback) {
 // @ Se quita al usuario el desarrollo de la función que define la propiedad del objeto de cada elemento, del cual quiere obtener el valor, ya solo requiere enviarlo como argumento al llamar al método
 Array.prototype.mypluck2 = function(property) {
   let newArray = [];
+
   for(let i = 0; i < this.length; i++) {
     newArray.push(this[i][property]);
   };
