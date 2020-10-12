@@ -141,20 +141,20 @@ const stooges = [
 ];
 
 // @ ***** V1 *****
-// @ En esta versión, usando un callback, el usuario desarrolla la función que en primera instancia, al llamar al método, envia la propiedad del objeto de cada elemento, del cual quiere obtener el valor para incluir en el nuevo arreglo y, posteriormente, recibe el nuevo arreglo
+// @ En esta versión, usando un callback, el usuario desarrolla la función que en primera instancia, al llamar al método, envia la propiedad del objeto de cada elemento del cual quiere obtener el valor para incluir en el nuevo arreglo y, posteriormente, recibe el nuevo arreglo
 /* const names = stooges.mypluck1((stooge) => {
   return stooge.name;
 });
 
 console.log(names); */
 
-// @ ***** V2 ***** PENDIENTE
-// @ En esta versión no se usa un callback ya que la documentación establece específicamente la función que se va a aplicar a cada elemento y el resultado del método, por lo que el usuario solamente requiere enviar como argumento la propiedad del objeto de cada elemento, del cual quiere obtener el valor para incluir en el nuevo arreglo para posteriormente recibir el nuevo arreglo
-/* const property = 'name';
+// @ ***** V2 *****
+// @ En esta versión no se usa un callback ya que la documentación establece específicamente la función que se va a aplicar a cada elemento y el resultado del método, por lo que el usuario solamente requiere enviar como argumento la propiedad del objeto de cada elemento del cual quiere obtener el valor para incluir en el nuevo arreglo, para posteriormente recibir el nuevo arreglo
+const property = 'name';
 
 const names = stooges.mypluck2(property);
 
-console.log(names); */
+console.log(names);
 
 
 

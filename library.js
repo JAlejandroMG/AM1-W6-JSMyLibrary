@@ -206,15 +206,13 @@ Array.prototype.mypluck1 = function(callback) {
   return newArray;
 };
 
-// @ ***** V2 ***** PENDIENTE
+// @ ***** V2 *****
 // @ En esta versión no se usa un callback ya que la documentación establece específicamente la funcionalidad y el resultado del método por lo que el usuario requiere solamente pasar como argumento la propiedad del objeto de cada elemento, del cual quiere obtener el valor para incluir en el nuevo arreglo y, posteriormente, recibe el nuevo arreglo
 // @ Se quita al usuario el desarrollo de la función que define la propiedad del objeto de cada elemento, del cual quiere obtener el valor, ya solo requiere enviarlo como argumento al llamar al método
 Array.prototype.mypluck2 = function(property) {
   let newArray = [];
-alert(typeof(property));
   for(let i = 0; i < this.length; i++) {
-    alert(this[i].name);
-    newArray.push(this[i].property);
+    newArray.push(this[i][property]);
   };
 
   return newArray;
